@@ -1,45 +1,45 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/SurvivalGame/dist
-/SurvivalGame/tmp
-/SurvivalGame/out-tsc
+/dist
+/tmp
+/out-tsc
 # Only exists if Bazel was run
-/SurvivalGame/bazel-out
+/bazel-out
 
 # dependencies
-/SurvivalGame/node_modules
+/node_modules
 
 # profiling files
 chrome-profiler-events*.json
 
 # IDEs and editors
-/SurvivalGame/.idea
-/SurvivalGame/.project
-/SurvivalGame/.classpath
-/SurvivalGame/.c9/
-/SurvivalGame/*.launch
-/SurvivalGame/.settings/
-/SurvivalGame/*.sublime-workspace
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # IDE - VSCode
-/SurvivalGame/.vscode/*
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-/SurvivalGame/.history/*
+.history/*
 
 # misc
-/SurvivalGame/.sass-cache
-/SurvivalGame/connect.lock
-/SurvivalGame/coverage
-/SurvivalGame/libpeerconnection.log
-/SurvivalGame/npm-debug.log
-/SurvivalGame/yarn-error.log
-/SurvivalGame/testem.log
-/SurvivalGame/typings
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
 
 # System Files
-/SurvivalGame/.DS_Store
-/SurvivalGame/Thumbs.db
+.DS_Store
+Thumbs.db
